@@ -1,3 +1,90 @@
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+
 body {
-    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .header{
+      background-color: rgb(143, 152, 236);
+
+
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    transition: .3s;
+  }
+
+
+.title{
+    font-size: 48px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+
+}
+
+.birth-info{
+    font-size: 18px;
+    margin-bottom: 19px;
+}
+
+
+.photo{
+width: 100%;
+border: 1px solid #fff;
+transform: scale(-1, 1)
+}
+
+.aside{
+    background-color: #050518;
+    width: 310px;
+    min-height: 100px;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 67px;
+
+}
+
+.about{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+}
+
+.footer {
+    height: 50px;
+}
+
+.logo_rs_school {
+    height: 50px;
+
+}
+
+.logo_github {
+    height: 50px;
+}
+
+.footer_div {
+    display: flex;
+    justify-content: space-between;
+
 }
